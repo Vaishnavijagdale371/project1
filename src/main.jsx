@@ -1,6 +1,7 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import Demo from './callback/Demo'
+import Demo2 from './Task1/Demo2'
+
 
 
 
@@ -10,6 +11,6 @@ import Demo from './callback/Demo'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     
-    <Demo/>
+    <Demo2/>
   </StrictMode>
 )
